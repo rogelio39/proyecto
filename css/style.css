@@ -8,10 +8,6 @@ a {
     text-decoration: none;
     color: black;
     list-style: none;
-    background-color: aliceblue;
-    padding: 10px;
-    border-radius: 15px;
-    border: black 2px solid;
 }
 
 ul,
@@ -27,7 +23,8 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to left, #FAE5D3, #F5CBA7);
+    background: linear-gradient(to right, #d3d675, #e0e71f, #ecb637, #f78b33, #ef6bdb, #ed33d1, #262f95, #2859a8, #208e8e);
+    font-family: Arial, Helvetica, sans-serif;
     gap: 2rem;
 }
 
@@ -95,6 +92,10 @@ li {
     gap: 2rem;
 }
 
+
+
+/*====VERSION DESKTOP======*/
+
 @media (min-width: 1100px) {
     .cuerpoPrincipal {
         display: flex;
@@ -128,6 +129,16 @@ li {
         gap: 2rem;
     }
 
+    .btn{
+        background-color: aliceblue;
+        padding: 10px;
+        border-radius: 15px;
+        border: black 2px solid;
+    }
+
+    .btn:hover{
+        background-color: #208e8e;
+    }
 
     .divImg1 img {
         margin-top: 8rem;
@@ -169,46 +180,49 @@ li {
 }
 
 
-@media (min-width:1100px){
-.navBarPropuestas {
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(255, 153, 0, 0.671);
-    margin: auto;
-    padding: 2rem;
-    border-radius: 10px;
-}
+
+/*=========================PAGES PROPUESTAS========================*/
+
+@media (min-width:1100px) {
+    .navBarPropuestas {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(255, 153, 0, 0.671);
+        margin: auto;
+        padding: 2rem;
+        border-radius: 10px;
+    }
 
 
-.navBarPropuestas ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-}
+    .navBarPropuestas ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
 
 
 
-.footerNavPropuestas {
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(255, 153, 0, 0.671);
-    margin: 10px;
-    padding: 1rem;
-    border-radius: 10px;
-}
+    .footerNavPropuestas {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(255, 153, 0, 0.671);
+        margin: 10px;
+        padding: 1rem;
+        border-radius: 10px;
+    }
 
-.footerNavPropuestas ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-}
+    .footerNavPropuestas ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
 
 }
